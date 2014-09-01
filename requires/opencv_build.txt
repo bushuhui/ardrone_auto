@@ -1,0 +1,26 @@
+requirements:
+    Linux mint 16 or Ubuntu 13.10
+    
+    sudo apt-get install cmake cmake-gui
+    sudo apt-get install mesa-utils libglu1-mesa freeglut3 freeglut3-dev 
+    sudo apt-get install gcc-4.6 g++-4.6
+    sudo apt-get install libgtk2.0-dev
+    sudo apt-get isstall libxmu-dev libxmu-headers
+    sudo apt-get install libqt4-core libqt4-dev libqt4-gui qt4-doc qt4-designer 
+    sudo apt-get install libqt4-qt3support libqwtplot3d-qt4-0 libqwtplot3d-qt4-dev qt4-dev-tools qt4-qtconfig 
+
+    sudo apt-get install ffmpeg
+    sudo apt-get install libavcodec53 libavcodec-dev libavdevice53 libavdevice-dev libavfilter2 libavfilter-dev libavformat53 libavformat-dev libavutil-dev libavutil51 libswscale-dev libswscale2
+    
+    
+build:
+    mkdir build
+    cd build
+    cmake WITH_OPENGL=on -D CMAKE_INSTALL_PREFIX=/opt/opencv-2.4.5 -D CMAKE_CXX_COMPILER=/usr/bin/g++-4.6 -D CMAKE_C_COMPILER=/usr/bin/gcc-4.6 ..
+    make
+    sudo make install
+    
+    cp setenv_opencv.sh /opt/opencv-2.4.5
+    source /opt/opencv-2.4.5/setenv_opencv.sh
+    
+

@@ -1,0 +1,6 @@
+sudo apt-get install yasm
+sudo apt-get install lame libmp3lame-dev
+
+./configure --prefix=/opt/ffmpeg-1.0
+make
+sudo make install
