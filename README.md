@@ -42,6 +42,7 @@ examples:
 
 
 keyboard key:
+```
 [Enter]         take off / land
 [Space]         auto-flight / manually
 [a]             yaw -
@@ -55,7 +56,7 @@ keyboard key:
 [z]             camera 0
 [x]             camera 1
 [p]             screen capture
-
+```
 
 ## Plateform:
 Only test on Linux Mint 16 64-bit. 
@@ -66,8 +67,8 @@ Only test on Linux Mint 16 64-bit.
 
 
 ## Screenshot:
--![alt text](http://blog.adv-ci.com/wp-content/uploads/2013/05/Screenshot-2D-SLAM-1.png "Screenshot 1")
--![alt text](http://blog.adv-ci.com/wp-content/uploads/2013/05/Screenshot-2D-SLAM.png "Screenshot 2")
+-![alt text](https://raw.githubusercontent.com/bushuhui/ardrone_auto/master/images/pic_1.png "Screenshot 1")
+-![alt text](https://raw.githubusercontent.com/bushuhui/ardrone_auto/master/images/pic_2.png "Screenshot 2")
 
 
 ## Project homepage:
